@@ -6,7 +6,7 @@ import Cors from 'cors';
 // AppConfig
 const app = express();
 const port = process.env.PORT || 8001;
-const connection_url = 'mongodb+srv://admin:admin@123@cluster0.io9hp.mongodb.net/tinder-clone?retryWrites=true&w=majority';
+const connection_url = '';
 
 // Middlewares
 app.use(express.json());
